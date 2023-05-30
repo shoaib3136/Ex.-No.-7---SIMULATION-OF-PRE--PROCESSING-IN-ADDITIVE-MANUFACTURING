@@ -1,5 +1,5 @@
 # Ex. No. 7 - SIMULATION OF PRE PROCESSING IN ADDITIVE MANUFACTURING
-### DATE: 
+### DATE:30-05-2023 
 ## AIM:
 ### To simulate the Pre Processing for 3D printing.
 
@@ -39,14 +39,103 @@
 ### ●	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the process to be selected.
 
 ## OUTPUT:
-![123_1](https://github.com/Sellakumar1987/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/ec8dafd7-cb7c-4a5b-936c-41e86a32a9da)
-![123_2](https://github.com/Sellakumar1987/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/c071a941-e5b4-4b31-af63-5f9fe08cd0fb)
-![123_3](https://github.com/Sellakumar1987/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/ebb3a944-eeb0-45e8-9841-d58997840c54)
+### Step1:
+#### CAD File Preparation:
 
-## Output:
+![image](https://github.com/shoaib3136/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/117919362/40134164-60c2-42c5-a24b-1cbf317e9ac0)
 
-### Name:
-### Register Number:
+#### Explanation:
+CAD file preparation is the process of converting a 3D CAD model into a format that can be used by an additive manufacturing (AM) printer. This process involves a number of steps, including:
+
+##### i.) Checking the model for errors:
+
+The first step is to check the model for any errors, such as missing or duplicate faces. These errors can cause problems during printing, so it is important to fix them before proceeding.
+##### ii.) Generating support structures:
+
+In some cases, support structures may be needed to support overhangs or other features of the model. Support structures are typically made of a different material than the model itself, and they are removed after printing.
+
+##### iii.) Slicing the model:
+
+The next step is to slice the model into a series of thin layers. This is done so that the printer can print the model one layer at a time.
+##### iv.) Generating G-code: 
+
+Finally, G-code is generated for the printer. G-code is a programming language that tells the printer how to move and deposit material.
+Once these steps have been completed, the 3D model is ready to be printed.
+
+
+
+### Step2:
+#### Conversion to STL:
+
+![WhatsApp Image 2023-05-30 at 18 33 00](https://github.com/shoaib3136/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/117919362/7f76b478-05f4-4b33-a1be-6f01becca869)
+
+#### Explanation:
+
+Conversion to STL is an important step in the additive manufacturing pre-processing workflow. It is used to ensure that the 3D model is in a format that can be understood by the printer. It also allows for the detection of errors in the model, such as missing or duplicate faces.Once the STL file has been created, it can be sent to the printer for production.
+
+
+### Step3:
+#### Orientation:
+![WhatsApp Image 2023-05-30 at 18 37 26](https://github.com/shoaib3136/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/117919362/2026d6bb-f120-469a-9cee-a9cc83664112)
+
+#### Explanation:
+
+Orientation in additive pre-processing is the process of determining the best orientation for a 3D model to be printed. The orientation of the model can have a significant impact on the quality, time, and cost of printing.
+
+
+There are a number of factors to consider when determining the orientation of a model for printing, including:
+
+
+##### Overhangs: Overhangs are areas of the model that extend away from the build platform. Overhangs can be difficult to print and may require support structures.
+##### i.) Surface finish:
+The orientation of the model can affect the surface finish of the printed object. Models that are oriented with their smooth surfaces facing up will have a better surface finish than models that are oriented with their rough surfaces facing up.
+##### ii.) Strength: 
+The orientation of the model can affect the strength of the printed object. Models that are oriented with their load-bearing surfaces facing up will be stronger than models that are oriented with their load-bearing surfaces facing down.
+##### iii.) Print time: 
+The orientation of the model can affect the print time. Models that are oriented in a way that minimizes the amount of support structures required will print faster than models that require a lot of support structures.
+##### iv.) Material usage: 
+The orientation of the model can affect the amount of material used. Models that are oriented in a way that minimizes the amount of material required will print with less material waste than models that require a lot of material.
+
+
+### Step4:
+#### Support structure:
+![WhatsApp Image 2023-05-30 at 18 39 11](https://github.com/shoaib3136/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/117919362/a478de8d-0a40-4459-a114-7846d8d02a3a)
+
+#### Explanation:
+
+Support structures are temporary structures that are used to support overhangs and other features of a 3D model during additive manufacturing (AM). Support structures are typically made of a different material than the model itself, and they are removed after printing.
+
+
+There are a number of different types of support structures, including:
+
+
+##### i.) Overhang supports: 
+
+Overhang supports are used to support overhangs, which are areas of the model that extend away from the build platform.
+##### ii.) Bridging supports:
+
+Bridging supports are used to support bridges, which are areas of the model that are printed between two unconnected supports.
+##### iii.) Sacrificial supports:
+
+Sacrificial supports are used to support features of the model that are difficult to print, such as thin walls or small features.
+##### iv.) Snap-off supports:
+
+Snap-off supports are designed to be easily removed from the model after printing.
+
+The type of support structure that is used will depend on the specific features of the model and the AM process that is being used.
+
+
+### Step5:
+#### Slicing:
+
+![WhatsApp Image 2023-05-30 at 18 45 17](https://github.com/shoaib3136/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/117919362/ab9e4c35-e706-4aad-b076-29a02f95afdb)
+
+#### Explanation:
+
+
+
+### Name: Shaik Shoaib Nawaz
+### Register Number: 212222240094
 
 ## Result: 
 ### Thus the simulation on the Preprocessing in additive manufacturing is completed.
