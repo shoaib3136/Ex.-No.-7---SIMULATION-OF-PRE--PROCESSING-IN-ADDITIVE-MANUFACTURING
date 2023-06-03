@@ -132,7 +132,20 @@ The type of support structure that is used will depend on the specific features 
 
 #### Explanation:
 
+Slicing is a pre-processing step in additive manufacturing (AM) that converts a 3D model into a set of instructions that can be used to create a physical object. The slicing software divides the model into thin layers, and then generates a path for the printer to follow for each layer. The path includes information about the speed, temperature, and material flow that should be used for each layer.
 
+There are a number of different slicing software programs available, each with its own strengths and weaknesses. Some of the most popular slicing programs include Cura, Slic3r, and Simplify3D. These programs are all free to download and use, and they offer a wide range of features and options.
+
+### Step6:
+#### Path planning :
+![image](https://github.com/shoaib3136/Ex.-No.-7---SIMULATION-OF-PRE--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/117919362/5d551a4e-8232-48de-ac6b-08d2e13e8325)
+
+#### Explanation:
+
+Path planning is a pre-processing step in additive manufacturing (AM) that determines the optimal path for the print head to follow when creating a 3D object. The path planner takes into account the geometry of the object, the properties of the material being used, and the capabilities of the printer.
+
+
+The goal of path planning is to minimize the time and material required to create the object, while also ensuring that the object is printed with the desired accuracy and quality. Path planning can be a complex problem, and there is no single algorithm that can be used to solve it for all cases. However, there are a number of different methods that can be used, and the best method for a particular application will depend on the specific factors involved.
 
 ### Name: Shaik Shoaib Nawaz
 ### Register Number: 212222240094
